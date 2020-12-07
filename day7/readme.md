@@ -22,10 +22,11 @@ You have a `shiny gold` bag. If you wanted to carry it in at least one other bag
 
 In the above rules, the following options would be available to you:
 
-A `bright white` bag, which can hold your `shiny gold` bag directly.
-A `muted yellow` bag, which can hold your `shiny gold` bag directly, plus some other bags.
-A `dark orange` bag, which can hold `bright white` and `muted yellow` bags, either of which could then hold your `shiny gold` bag.
-A `light red` bag, which can hold `bright white` and `muted yellow` bags, either of which could then hold your `shiny gold` bag.
+- A `bright white` bag, which can hold your `shiny gold` bag directly.
+- A `muted yellow` bag, which can hold your `shiny gold` bag directly, plus some other bags.
+- A `dark orange` bag, which can hold `bright white` and `muted yellow` bags, either of which could then hold your `shiny gold` bag.
+- A `light red` bag, which can hold `bright white` and `muted yellow` bags, either of which could then hold your `shiny gold` bag.
+
 So, in this example, the number of bag colors that can eventually contain at least one `shiny gold` bag is `4`.
 
 How many bag colors can eventually contain at least one `shiny gold` bag? (The list of rules is quite long; make sure you get all of it.)
