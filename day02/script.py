@@ -1,7 +1,7 @@
 import re
 from collections import Counter
 
-with open('day2/input.txt', 'r') as file:
+with open('day02/input.txt', 'r') as file:
     data = file.readlines()
 
 counter_1, counter_2 = 0, 0

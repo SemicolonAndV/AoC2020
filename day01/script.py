@@ -1,4 +1,4 @@
-with open("day1/input.txt", 'r') as file:
+with open("day01/input.txt", 'r') as file:
     data = sorted([int(line.strip()) for line in file.readlines()])
     
 for i in range(len(data) - 2):
@@ -9,5 +9,5 @@ for i in range(len(data) - 2):
             if data[i] + data[j] + data[k] == 2020:
                 multi = data[i] * data[j] * data[k]
     
-print(f"Part 1: {adding}")
-print(f"Part 2: {multi}")
+print(f"Result 1: {adding}")
+print(f"Result 2: {multi}")

@@ -1,7 +1,7 @@
 from itertools import combinations
 from collections import deque
 
-with open('day9/input.txt', 'r') as file:
+with open('day09/input.txt', 'r') as file:
     data = [int(x.strip()) for x in file.readlines()]
     
 preamble, i = 25, 0

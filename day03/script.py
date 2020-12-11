@@ -1,6 +1,6 @@
 import math
 
-with open('day3/input.txt', 'r') as file:
+with open('day03/input.txt', 'r') as file:
     data = [x.strip() for x in file.readlines()]
     
 slopes = [(1, 1), (3, 1), (5, 1), (7, 1), (1, 2)]

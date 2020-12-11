@@ -1,6 +1,6 @@
 from copy import deepcopy
 
-with open('day8/input.txt', 'r') as file:
+with open('day08/input.txt', 'r') as file:
     data = [line.strip().split(' ') for line in file.readlines()]
 
 

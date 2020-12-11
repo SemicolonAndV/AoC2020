@@ -10,7 +10,7 @@ def count_bag(color):
         return 0
     return sum(int(amount) + int(amount) * count_bag(x) for amount, x in bags[color])
     
-with open('day7/input.txt', 'r') as file:
+with open('day07/input.txt', 'r') as file:
     data = [x.strip() for x in file.readlines()]
     
 bags, counter_1 = {}, 0

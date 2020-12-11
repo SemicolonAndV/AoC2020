@@ -1,7 +1,7 @@
 from collections import Counter
 import string
 
-with open('day6/input.txt', 'r') as file:
+with open('day06/input.txt', 'r') as file:
     single_answers = [x.split('\n') for x in file.read().split('\n\n')]
     
 group_answers = [''.join([x for x in item]) for item in single_answers]

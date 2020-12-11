@@ -1,6 +1,6 @@
 import re
 
-with open('day4/input.txt', 'r') as file:
+with open('day04/input.txt', 'r') as file:
     data = [dict({y[:3]: y[4:] for y in x.replace('\n', ' ').split(' ')})for x in file.read().split('\n\n')]
     
 # print(data)
@@ -41,5 +41,4 @@ for passport in data:
     except KeyError:
         continue
             
-print(counter_1)
-print(counter_2)
+print(f"Result 1: {counter_1}\nResult 2: {counter_2}")
